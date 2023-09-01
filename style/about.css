@@ -160,4 +160,19 @@ body{
     .team__member p{
         margin-bottom: 1.5rem;
     }
+
+    .go_to_top{
+        position:relative;
+        bottom:0;
+        margin-left:80%; 
+        padding:1rem;
+        background: transparent;
+        border-radius: 50%;
+        font-size: 2rem;
+        transition: var(--transition);
+    }
+    .go_to_top:hover{
+        background: var(--color-primary);
+    }
+    
  }
